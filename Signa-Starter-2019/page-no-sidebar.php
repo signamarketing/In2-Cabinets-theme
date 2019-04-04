@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying normal pages
+ * The template for displaying normal pages without the sidebar
+ * Template Name: Default Page No Sidebar
  *
  * @package start-theme
  */
@@ -31,7 +32,7 @@ get_header(); ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="container">
     <div class="row">
-    <div class="col-12 col-md-8 no-gutter">
+    <div class="col-12 col-md-12 no-gutter">
       <section class="mr-md-3 mr-lg-5 mt-4"">
         <div class="container">
 
@@ -90,17 +91,7 @@ get_header(); ?>
     </div>
     <!-- end of column -->
 
-    <div id="inner-page-col-1" class="col-12 col-md-4 rounded mb-5">
-      <?php $contactform = get_field('sidebar_form', 'options'); ?>
-      <div id="contact-form">
-        <h3 class="font-weight-bold sidebar-title-size mt-2 mb-4 text-center"><?php echo the_field('sidebar_title', 'options'); ?></h3>
-        <?php echo do_shortcode($contactform) ?>
-      </div>
-      <div id="content-below-sidebar-form">
-        <?php echo the_field('sidebar_content_below_form', 'options'); ?>
-        <div id="sidebar-bottom-cta"><a href="#inner-page-col-1" alt="go to form above"class="btn orange">Request An Estimate</a></div>
-      </div>
-    </div>
+
 </div>
 
 

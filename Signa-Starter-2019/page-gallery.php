@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<section id="inner-page-title-header" style="background-image:url('/wp-content/uploads/2019/03/inner-page-header2@2x.jpg');">
+<section id="inner-page-title-header" style="background-image:url('/wp-content/uploads/2019/03/inner-page-bg-2.jpg');">
   <div class="container">
     <div class="row align-items-center">
       <div class="col">

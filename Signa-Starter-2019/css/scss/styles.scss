@@ -381,7 +381,8 @@ div#footer-social-icons a:last-child {
 }
 #view-gallery {background-size:cover; background-position:center;}
 #view-gallyer a {font-size:45px;}
-#inner-page-title-header {color:#fff;}
+#inner-page-title-header {color:#fff;  background-repeat: no-repeat;
+  background-size: cover;}
 .bg-section-inner-page {color:#fff;}
 .bg-section-inner-page > div {
   min-height: 116px;
@@ -393,6 +394,9 @@ div#inner-page-col-1 {
 }
 #view-gallery{
   padding: 50px 0;
+}
+.page-template-page-no-sidebar-php article {
+  min-height: calc(100vh - 715px);
 }
 @media(min-width:768px) {
   div#inner-page-col-1 {

@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<section id="inner-page-title-header" style="background-image:url('/wp-content/uploads/2019/03/inner-page-header2@2x.jpg');">
+<section id="inner-page-title-header" style="background-image:url('/wp-content/uploads/2019/03/inner-page-bg-2.jpg');">
       <div class="container">
         <div class="row align-items-center">
           <div class="col">
@@ -145,7 +145,7 @@ endif;
       </div>
       <div id="content-below-sidebar-form">
         <?php echo the_field('sidebar_content_below_form', 'options'); ?>
-        <div id="sidebar-bottom-cta"><a class="btn orange">Request An Estimate</a></div>
+        <div id="sidebar-bottom-cta"><a href="#inner-page-col-1" alt="go to form above"class="btn orange">Request An Estimate</a></div>
       </div>
     </div>
 </div>

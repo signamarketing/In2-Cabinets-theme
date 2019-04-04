@@ -21,7 +21,6 @@
   <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png?1=; ?>">
   <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,600i,700i,900i" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <?php wp_head(); ?>
 </head>
 
@@ -43,7 +42,7 @@
               <a class="brand" href="<?php echo home_url(); ?>">
                 <img src="/wp-content/themes/Signa-Starter-2019/img/logo@2x.jpg">
               </a>
-              <div id="neil-logo"><p class="">Featuring&nbsp;<span style="font-weight:900;">Original</b></span></p><img src="http://ln2-cabinets.local/wp-content/uploads/2019/03/Layer-31@2x.jpg" alt="neil's garage cabinets"></div>
+              <div id="neil-logo"><p class="">Featuring&nbsp;<span style="font-weight:900;">Original</b></span></p><img src="/wp-content/uploads/2019/03/Layer-31@2x.jpg" alt="neil's garage cabinets"></div>
             </div>
 
             <div class="nav-open float-right">

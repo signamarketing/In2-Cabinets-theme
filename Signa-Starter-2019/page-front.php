@@ -236,7 +236,7 @@ endwhile;
     </div>
   </div>
 </section>
-<section id="view-gallery" style="background-image:url('/wp-content/uploads/2019/03/cta-row-bg1@2x.jpg');">
+<section id="view-gallery" style="background-image:url('/wp-content/uploads/2019/03/cta-bg-1@2x.jpg');">
   <div class="container">
     <div class="row text-center py-5">
       <div class="col-12 align-items-center justify-content-center text-center">
